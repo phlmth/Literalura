@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: store
+  datasource:
+    url: jdbc:mysql://localhost:3306/literalura
+    username: jose
+    password: 1234
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        ddl-auto: update
+
